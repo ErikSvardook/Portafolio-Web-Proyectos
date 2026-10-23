@@ -31,8 +31,6 @@ src/
   data/                  # site.ts (datos personales) · projects.ts (los 3 proyectos)
   fonts/                 # fuentes Geist auto-hospedadas (no dependen de Google Fonts)
 docs/
-  Portafolio-Guia-NextJS-Tailwind.pdf   # guía de estudio (Next.js, Tailwind, Angular vs Next, entrevistas)
-  generate_pdf.py                        # script que regenera el PDF
 ```
 
 ## Personalizar
