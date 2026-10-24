@@ -44,7 +44,9 @@ export const projects: Project[] = [
       "Inventario que no miente: una compra no suma stock hasta que se confirma, que es cuando la mercancía realmente llegó.",
       "Reporte de margen por producto ordenado de menor a mayor, que responde la pregunta con la que se decide una despensa: a quién hay que renegociarle el precio de compra.",
       "La API impide que un usuario se desactive a sí mismo y valida que ningún campo obligatorio se guarde vacío.",
-      "Recuperación de contraseña por la API HTTPS de Resend, porque el hosting bloquea el SMTP saliente y el puerto 587 simplemente no responde."],
+      "Recuperación de contraseña por la API HTTPS de Resend, porque el hosting bloquea el SMTP saliente y el puerto 587 simplemente no responde.",
+      "RBAC en toda la API: roles de administrador, cajero y almacenista, etc; con permisos validados en el backend vía JWT. El frontend adapta menús y acciones al rol, pero la autorización real vive en el servidor —un cajero no puede tocar precios ni ver márgenes aunque llame al endpoint directamente.",
+      "Docker Compose para todo el stack: frontend, API y base de datos en contenedores separados, levantados con un solo docker compose up. Migraciones de Flyway y volumen de PostgreSQL configurados desde el arranque, así el entorno se reproduce idéntico en cualquier máquina."],
 
     tech: ["Spring Boot 4", "Java 21", "Angular 21", "TypeScript", "PostgreSQL", "Flyway", "Docker", "JWT"],
 
@@ -62,7 +64,7 @@ export const projects: Project[] = [
     description:
       "Página web personal con animaciones, detalles interactivos y diseño responsive, hecho con JavaScript, HTML y CSS puro. " +
       "Me sirvió para practicar manipulación del DOM, animaciones con CSS y buenas prácticas de diseño web sin un framework.",
-
+    highlights: ["Música de fondo que respeta las políticas de autoplay: los navegadores bloquean la reproducción automática de audio hasta que hay una interacción del usuario. En lugar de forzar el play() y tragarme el error silencioso, la música se activa en el primer clic o toque real, con manejo del estado del <audio> para no reiniciar la pista si el usuario ya interactuó antes. Incluye control de silencio y persistencia de la preferencia."],
     tech: ["HTML", "CSS", "JavaScript"],
 
     github: "https://github.com/ErikSvardook/Pagina-de-novios.git",
