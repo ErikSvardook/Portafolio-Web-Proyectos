@@ -33,9 +33,9 @@ export const projects: Project[] = [
       Los reclutadores valoran "qué hace" más que la lista de tecnologías.
     */
     description:
-      "Sistema completo de punto de venta para una tienda de despensa: caja, cobro, inventario, proveedores, compras y reportes. " + 
-      "Lo construí de punta a punta: backend hecho con Spring Boot con 12 controladores y 73 endpoints REST y autencicación con JWT " +
-      "; SPA en Angular para todo el diseño del frontend. PostgreSQL con 7 migraciones versionadas por flyway. Y se hicieron 301 pruebas automatizadas.",
+      `Sistema completo de punto de venta para una tienda de despensa: caja, cobro, inventario, proveedores, compras y reportes.
+      Lo construí de punta a punta: backend hecho con Spring Boot con 12 controladores y 73 endpoints REST y autencicación con JWT; 
+      SPA en Angular para todo el diseño del frontend. PostgreSQL con 7 migraciones versionadas por flyway. Y se hicieron 301 pruebas automatizadas.`,
     /**
      * Detalles de lo que se esta implementando en el proyecto.
      */
@@ -62,11 +62,12 @@ export const projects: Project[] = [
     title: "Página Web personal",
 
     description:
-      "Página web personal con animaciones, detalles interactivos y diseño responsive, hecho con JavaScript, HTML y CSS puro. " +
-      "Me sirvió para practicar manipulación del DOM, animaciones con CSS y buenas prácticas de diseño web sin un framework. "+
-      "Música de fondo que respeta las políticas de autoplay: los navegadores bloquean la reproducción automática de audio hasta" +
-      "que hay una interacción del usuario. En lugar de forzar el play() y tragarme el error silencioso, la música se activa en el primer" +
-      "clic o toque real, con manejo del estado del <audio> para no reiniciar la pista si el usuario ya interactuó antes. Incluye control de silencio y persistencia de la preferencia.",
+      `Página web personal con animaciones, detalles interactivos y diseño responsive, hecho con JavaScript, HTML y CSS puro.
+      Me sirvió para practicar manipulación del DOM, animaciones con CSS y buenas prácticas de diseño web sin un framework.
+
+      Música de fondo que respeta las políticas de autoplay: los navegadores bloquean la reproducción automática de audio hasta
+      que hay una interacción del usuario. En lugar de forzar el play y tragarme el error silencioso, la música se activa en el primer
+      clic o toque real, con manejo del estado del audio para no reiniciar la pista si el usuario ya interactuó antes. Incluye control de silencio y persistencia de la preferencia.`,
     tech: ["HTML", "CSS", "JavaScript"],
 
     github: "https://github.com/ErikSvardook/Pagina-de-novios.git",

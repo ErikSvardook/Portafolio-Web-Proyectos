@@ -54,7 +54,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       </div>
 
       {/* Descripción */}
-      <p className="mt-3 flex-1 text-sm leading-6 text-zinc-400">
+      <p className="mt-3 flex-1 whitespace-pre-line text-sm leading-6 text-zinc-400">
         {project.description}
       </p>
 
