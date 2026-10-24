@@ -63,8 +63,10 @@ export const projects: Project[] = [
 
     description:
       "Página web personal con animaciones, detalles interactivos y diseño responsive, hecho con JavaScript, HTML y CSS puro. " +
-      "Me sirvió para practicar manipulación del DOM, animaciones con CSS y buenas prácticas de diseño web sin un framework.",
-    highlights: ["Música de fondo que respeta las políticas de autoplay: los navegadores bloquean la reproducción automática de audio hasta que hay una interacción del usuario. En lugar de forzar el play() y tragarme el error silencioso, la música se activa en el primer clic o toque real, con manejo del estado del <audio> para no reiniciar la pista si el usuario ya interactuó antes. Incluye control de silencio y persistencia de la preferencia."],
+      "Me sirvió para practicar manipulación del DOM, animaciones con CSS y buenas prácticas de diseño web sin un framework. "+
+      "Música de fondo que respeta las políticas de autoplay: los navegadores bloquean la reproducción automática de audio hasta" +
+      "que hay una interacción del usuario. En lugar de forzar el play() y tragarme el error silencioso, la música se activa en el primer" +
+      "clic o toque real, con manejo del estado del <audio> para no reiniciar la pista si el usuario ya interactuó antes. Incluye control de silencio y persistencia de la preferencia.",
     tech: ["HTML", "CSS", "JavaScript"],
 
     github: "https://github.com/ErikSvardook/Pagina-de-novios.git",
