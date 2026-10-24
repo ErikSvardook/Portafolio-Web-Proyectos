@@ -78,7 +78,7 @@ export const projects: Project[] = [
     title: "Agenda con Python",
 
     description:
-      "Proyecto en Python para administrar contactos y eventos, con almacenamiento en una base de datos PostgreSQL. Incluye funcionalidades de agregar, editar, eliminar y listar contactos y eventos. " + 
+      "Proyecto en Python para administrar contactos y eventos, con almacenamiento en una base de datos MySQL. Incluye funcionalidades de agregar, editar, eliminar y listar contactos y eventos. " + 
       "Me ayudó a mejorar mis habilidades en Python y SQL, modelando datos fuera de un framework.",
 
     tech: ["Python", "PostgreSQL"],
